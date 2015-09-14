@@ -1,3 +1,8 @@
+# 1.2.0 (2015-09-15)
+
+  * use JSX
+  * add cssPrefix proptype
+
 # 1.1.0 (2015-09-15)
 
   * add the package to npm, the right way
