@@ -1,3 +1,7 @@
+# 1.1.0 (2015-09-15)
+
+  * add the package to npm, the right way
+
 # 1.0.1 (2015-09-12)
 
   * do not use JSX inside the reusable components, only React.DOM
