@@ -58,8 +58,10 @@ Nouislider.propTypes = {
   // http://refreshless.com/nouislider/slider-options/#section-tooltips
   tooltips: React.PropTypes.oneOfType([
     React.PropTypes.bool,
-    React.PropTypes.Object
-  ])
+    React.PropTypes.object
+  ]),
+  // http://refreshless.com/nouislider/slider-options/#section-cssPrefix
+  cssPrefix: React.PropTypes.string
 };
 
 module.exports = Nouislider;
