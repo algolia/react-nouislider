@@ -25,7 +25,7 @@ class Nouislider extends React.Component {
   }
 
   render() {
-    return React.DOM.div();
+    return <div/>;
   }
 }
 
