@@ -1,0 +1,42 @@
+{
+  "name": "react-nouislider",
+  "version": "1.0.2",
+  "description": "React component wrapping leongersen/noUiSlider",
+  "main": "dist/react-nouislider.common.js",
+  "scripts": {
+    "lint": "eslint . --quiet",
+    "test": "npm run lint",
+    "build": "babel index.js --out-file dist/react-nouislider.common.js",
+    "prepublish": "npm run build"
+  },
+  "repository": "algolia/react-nouislider",
+  "keywords": [
+    "react",
+    "nouislider",
+    "slider",
+    "component",
+    "reactjs",
+    "range",
+    "slider"
+  ],
+  "author": "Algolia <support@algolia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/algolia/react-nouislider/issues"
+  },
+  "peerDependencies": {
+    "react": "0.13.x"
+  },
+  "homepage": "https://github.com/algolia/react-nouislider",
+  "dependencies": {
+    "nouislider": "algolia/noUiSlider#30d08e19070ccc17394cd9aa450dacb2eced3b6a"
+  },
+  "devDependencies": {
+    "babel": "5.8.23",
+    "babel-eslint": "4.1.1",
+    "eslint": "1.4.1",
+    "eslint-config-airbnb": "0.0.8",
+    "eslint-config-algolia": "3.0.0",
+    "eslint-plugin-react": "3.3.2"
+  }
+}
