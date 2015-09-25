@@ -1,3 +1,7 @@
+# 1.2.1 (2015-09-25)
+
+  * update algolia/noUiSlider, fixes tap/click event on handles
+
 # 1.2.0 (2015-09-15)
 
   * use JSX
