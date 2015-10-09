@@ -1,7 +1,9 @@
 language: node_js
 node_js:
   - stable
-before_install: npm prune
+before_install:
+  - npm prune
+  - mkdir dist
 install: npm install
 script: npm test
 branches:
