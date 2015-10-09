@@ -1,3 +1,7 @@
+# 1.4.0 (2015-10-09)
+
+  * avoid mutating option objects by upgrading nouislider
+
 # 1.3.0 (2015-10-09)
 
   * update react to 0.14.0
