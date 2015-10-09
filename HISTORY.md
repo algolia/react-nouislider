@@ -1,3 +1,5 @@
+# 1.4.1 (2015-10-09)
+
 # 1.4.0 (2015-10-09)
 
   * avoid mutating option objects by upgrading nouislider
