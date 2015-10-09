@@ -4,7 +4,7 @@ var nouislider = require('nouislider');
 
 class Nouislider extends React.Component {
   componentDidMount() {
-    var slider = this.slider = nouislider.create(React.findDOMNode(this), this.props);
+    var slider = this.slider = nouislider.create(this.refs.slider, this.props);
 
     if (this.props.onUpdate) {
       slider.on('update', this.props.onUpdate);
@@ -25,7 +25,7 @@ class Nouislider extends React.Component {
   }
 
   render() {
-    return <div/>;
+    return <div ref="slider" />;
   }
 }
 
