@@ -50,6 +50,8 @@ Nouislider.propTypes = {
   onUpdate: React.PropTypes.func,
   // http://refreshless.com/nouislider/slider-options/#section-orientation
   orientation: React.PropTypes.oneOf(['horizontal', 'vertical']),
+  // http://refreshless.com/nouislider/pips/
+  pips: React.PropTypes.object,
   // http://refreshless.com/nouislider/slider-values/#section-range
   range: React.PropTypes.object.isRequired,
   // http://refreshless.com/nouislider/slider-options/#section-start
