@@ -1,6 +1,6 @@
 {
   "name": "react-nouislider",
-  "version": "1.4.3",
+  "version": "1.5.1",
   "npm-shrinkwrap-version": "5.4.1",
   "node-version": "v4.1.1",
   "dependencies": {
@@ -2073,8 +2073,8 @@
       "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.6.3.tgz"
     },
     "nouislider-algolia-fork": {
-      "version": "8.1.0",
-      "resolved": "https://registry.npmjs.org/nouislider-algolia-fork/-/nouislider-algolia-fork-8.1.0.tgz"
+      "version": "8.1.1",
+      "resolved": "https://registry.npmjs.org/nouislider-algolia-fork/-/nouislider-algolia-fork-8.1.1.tgz"
     },
     "npm-shrinkwrap": {
       "version": "5.4.1",
