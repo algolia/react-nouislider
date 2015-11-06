@@ -1,3 +1,8 @@
+# 1.5.2 (2015-11-06)
+
+Change the way we update the options, we cannot update pips using the sole updateOption API sadly.
+So we create/destroy everytime for now.
+
 # 1.5.1 (2015-11-02)
 
 Add pips support
