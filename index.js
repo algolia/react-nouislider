@@ -3,6 +3,19 @@ import nouislider from 'nouislider-algolia-fork';
 
 class Nouislider extends React.Component {
   componentDidMount() {
+    this.createSlider();
+  }
+
+  componentDidUpdate() {
+    this.slider.destroy();
+    this.createSlider();
+  }
+
+  componentWillUnmount() {
+    this.slider.destroy();
+  }
+
+  createSlider() {
     var slider = this.slider = nouislider.create(this.sliderContainer, {...this.props});
 
     if (this.props.onUpdate) {
@@ -12,15 +25,6 @@ class Nouislider extends React.Component {
     if (this.props.onChange) {
       slider.on('change', this.props.onChange);
     }
-  }
-
-  componentWillReceiveProps(props) {
-    this.slider.updateOptions({...this.props});
-    this.slider.set(props.start);
-  }
-
-  componentWillUnmount() {
-    this.slider.destroy();
   }
 
   render() {
