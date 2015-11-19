@@ -43,7 +43,7 @@
     "eslint-config-airbnb": "^0.1.0",
     "eslint-config-algolia": "^4.2.0",
     "eslint-plugin-react": "^3.5.1",
-    "npm-shrinkwrap": "^5.4.1",
+    "npm-shrinkwrap": "^200.4.0",
     "react-dom": "^0.14.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
