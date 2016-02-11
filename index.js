@@ -65,7 +65,11 @@ Nouislider.propTypes = {
   // http://refreshless.com/nouislider/slider-options/#section-tooltips
   tooltips: React.PropTypes.oneOfType([
     React.PropTypes.bool,
-    React.PropTypes.object
+    React.PropTypes.arrayOf(
+      React.PropTypes.shape({
+        to: React.PropTypes.func
+      })
+    )
   ])
 };
 
