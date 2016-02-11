@@ -14,7 +14,7 @@ npm install react-nouislider --save
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Nouislider from 'Nouislider';
+import Nouislider from 'react-nouislider';
 
 ReactDOM.render(
   <Nouislider
