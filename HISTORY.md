@@ -1,3 +1,7 @@
+# 1.6.1 (2016-02-11)
+
+perf(nouislider): update nouislider to latest, fix pips perf
+
 # 1.6.0 (2015-11-19)
 
 Stop heavy cloning of options since we are now recreating the slider on props update.
