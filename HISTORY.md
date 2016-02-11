@@ -2,6 +2,11 @@
 
 perf(nouislider): update nouislider to latest, fix pips perf
 
+# 1.7.0 (2015-12-30)
+
+Expose the `slide` event through the `onSlide` prop.
+>>>>>>> 62a7805259954b306d862eca0a906e45ce4d7058
+
 # 1.6.0 (2015-11-19)
 
 Stop heavy cloning of options since we are now recreating the slider on props update.
