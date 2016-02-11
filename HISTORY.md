@@ -1,4 +1,4 @@
-# 1.6.1 (2016-02-11)
+# 1.7.1 (2016-02-11)
 
 perf(nouislider): update nouislider to latest, fix pips perf
 
