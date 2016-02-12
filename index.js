@@ -3,10 +3,14 @@ import nouislider from 'nouislider-algolia-fork';
 
 class Nouislider extends React.Component {
   componentDidMount() {
+    if (this.props.disabled) this.sliderContainer.setAttribute('disabled', true);
+    else this.sliderContainer.removeAttribute('disabled');
     this.createSlider();
   }
 
   componentDidUpdate() {
+    if (this.props.disabled) this.sliderContainer.setAttribute('disabled', true);
+    else this.sliderContainer.removeAttribute('disabled');
     this.slider.destroy();
     this.createSlider();
   }
@@ -48,6 +52,8 @@ Nouislider.propTypes = {
   cssPrefix: React.PropTypes.string,
   // http://refreshless.com/nouislider/slider-options/#section-orientation
   direction: React.PropTypes.oneOf(['ltr', 'rtl']),
+  // http://refreshless.com/nouislider/more/#section-disable
+  disabled: React.PropTypes.bool,
   // http://refreshless.com/nouislider/slider-options/#section-limit
   limit: React.PropTypes.number,
   // http://refreshless.com/nouislider/slider-options/#section-margin
