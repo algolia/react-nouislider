@@ -2194,9 +2194,9 @@
       "version": "3.16.1",
       "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.16.1.tgz"
     },
-    "nouislider-algolia-fork": {
-      "version": "8.2.1-patch1",
-      "resolved": "https://registry.npmjs.org/nouislider-algolia-fork/-/nouislider-algolia-fork-8.2.1-patch1.tgz"
+    "nouislider": {
+      "version": "8.3.0",
+      "resolved": "https://registry.npmjs.org/nouislider/-/nouislider-8.3.0.tgz"
     },
     "npm-shrinkwrap": {
       "version": "200.4.0",
