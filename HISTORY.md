@@ -1,3 +1,7 @@
+# 1.8.1 (2016-02-15)
+
+chore(deps): upgrade nouislider, has our latest perf fixes
+
 # 1.8.0 (2016-02-12)
 
 feat(disabled): add disabled prop support, to disable a slider
