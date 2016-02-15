@@ -1,3 +1,5 @@
+# 1.8.2 (2016-02-15)
+
 # 1.8.1 (2016-02-15)
 
 chore(deps): upgrade nouislider, has our latest perf fixes
