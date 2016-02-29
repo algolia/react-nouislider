@@ -1,3 +1,7 @@
+# 1.9.1 (2016-02-29)
+
+fix(window): do not access window.* on import, wait for init
+
 # 1.9.0 (2016-02-29)
 
 feat(nouislider): add behaviour prop parameter
