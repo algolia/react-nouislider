@@ -9,7 +9,7 @@
     "build": "mkdir -p dist && babel index.js --out-file dist/react-nouislider.common.js",
     "watch": "mkdir -p dist && babel index.js --watch --out-file dist/react-nouislider.common.js",
     "dev": "webpack-dev-server --config webpack.example.config.js --hot --inline --no-info",
-    "prepublish": "npm run build",
+    "prepublish": "NODE_ENV=production npm run build",
     "shrinkwrap": "npm-shrinkwrap --dev"
   },
   "repository": "algolia/react-nouislider",
