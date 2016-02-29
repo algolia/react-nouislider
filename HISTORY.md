@@ -1,3 +1,7 @@
+# 1.9.0 (2016-02-29)
+
+feat(nouislider): add behaviour prop parameter
+
 # 1.8.2 (2016-02-15)
 
 # 1.8.1 (2016-02-15)
