@@ -1,6 +1,6 @@
 {
   "name": "react-nouislider",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "React component wrapping leongersen/noUiSlider",
   "main": "dist/react-nouislider.common.js",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/algolia/react-nouislider",
   "dependencies": {
-    "nouislider": "^8.3.0"
+    "nouislider-algolia-fork": "^8.3.1-patch-0"
   },
   "devDependencies": {
     "babel": "5.8.23",
