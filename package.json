@@ -9,8 +9,7 @@
     "build": "mkdir -p dist && babel index.js --out-file dist/react-nouislider.common.js",
     "watch": "mkdir -p dist && babel index.js --watch --out-file dist/react-nouislider.common.js",
     "dev": "webpack-dev-server --config webpack.example.config.js --hot --inline --no-info",
-    "prepublish": "NODE_ENV=production npm run build",
-    "shrinkwrap": "npm-shrinkwrap --dev"
+    "prepublish": "NODE_ENV=production npm run build"
   },
   "repository": "algolia/react-nouislider",
   "keywords": [
@@ -32,6 +31,7 @@
   },
   "homepage": "https://github.com/algolia/react-nouislider",
   "dependencies": {
+    "nouislider": "^8.5.1",
     "nouislider-algolia-fork": "^8.3.1-patch-0"
   },
   "devDependencies": {
@@ -44,9 +44,9 @@
     "eslint-config-algolia": "^4.6.0",
     "eslint-plugin-algolia": "^1.5.0",
     "eslint-plugin-react": "^3.16.1",
-    "npm-shrinkwrap": "^200.5.1",
-    "react-dom": "^15.0.1",
-    "webpack": "^1.12.15",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "webpack": "^1.13.0",
     "webpack-dev-server": "^1.12.1"
   }
 }
