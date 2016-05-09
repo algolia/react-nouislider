@@ -1,3 +1,13 @@
+<a name="1.11.0"></a>
+# [1.11.0](https://github.com/algolia/react-nouislider/compare/v1.10.0...v1.11.0) (2016-05-09)
+
+
+### Features
+
+* **upgrade:** upgrade nouislider([7c7c436](https://github.com/algolia/react-nouislider/commit/7c7c436))
+
+
+
 <a name="1.10.0"></a>
 # [1.10.0](https://github.com/algolia/react-nouislider/compare/v1.9.0...v1.10.0) (2016-04-15)
 
