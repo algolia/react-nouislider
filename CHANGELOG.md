@@ -1,3 +1,13 @@
+<a name="1.13.0"></a>
+# [1.13.0](https://github.com/algolia/react-nouislider/compare/v1.12.0...v1.13.0) (2016-08-17)
+
+
+### Features
+
+* **nouislider:** use noUiSlider directly ([bd8a265](https://github.com/algolia/react-nouislider/commit/bd8a265))
+
+
+
 <a name="1.11.0"></a>
 # [1.11.0](https://github.com/algolia/react-nouislider/compare/v1.10.0...v1.11.0) (2016-05-09)
 
