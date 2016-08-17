@@ -2,8 +2,6 @@
 
 Wraps [leongersen/noUiSlider](https://github.com/leongersen/noUiSlider) in a [react component](https://facebook.github.io/react/docs/component-api.html).
 
-Currently using [Algolia's fork](https://github.com/algolia/noUiSlider) of noUiSlider to allow setting ranges dynamically and other fixes to be merged in upstream project.
-
 ## Documentation
 
 All the options used in react-nouislider are then passed to noUiSlider. See the [noUiSlider documentation](http://refreshless.com/nouislider/) before opening issues.
