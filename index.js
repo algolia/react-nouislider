@@ -74,15 +74,15 @@ Nouislider.propTypes = {
   margin: React.PropTypes.number,
   // http://refreshless.com/nouislider/events-callbacks/#section-change
   onChange: React.PropTypes.func,
-  // http://refreshless.com/nouislider/events-callbacks/#section-change
+  // http://refreshless.com/nouislider/events-callbacks/
   onEnd: React.PropTypes.func,
-  // http://refreshless.com/nouislider/events-callbacks/#section-change
+  // http://refreshless.com/nouislider/events-callbacks/#section-set
   onSet: React.PropTypes.func,
-  // http://refreshless.com/nouislider/events-callbacks/#section-update
-  onSlide: React.PropTypes.func,
-  // http://refreshless.com/nouislider/events-callbacks/#section-update
-  onStart: React.PropTypes.func,
   // http://refreshless.com/nouislider/events-callbacks/#section-slide
+  onSlide: React.PropTypes.func,
+  // http://refreshless.com/nouislider/events-callbacks/
+  onStart: React.PropTypes.func,
+  // http://refreshless.com/nouislider/events-callbacks/#section-update
   onUpdate: React.PropTypes.func,
   // http://refreshless.com/nouislider/slider-options/#section-orientation
   orientation: React.PropTypes.oneOf(['horizontal', 'vertical']),
