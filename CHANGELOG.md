@@ -1,3 +1,13 @@
+<a name="1.14.0"></a>
+# [1.14.0](https://github.com/algolia/react-nouislider/compare/v1.13.0...v1.14.0) (2016-08-19)
+
+
+### Features
+
+* **onSet:** add support for the set event through the onSet prop ([b498e0b](https://github.com/algolia/react-nouislider/commit/b498e0b))
+
+
+
 <a name="1.13.0"></a>
 # [1.13.0](https://github.com/algolia/react-nouislider/compare/v1.12.0...v1.13.0) (2016-08-17)
 
