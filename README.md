@@ -2,6 +2,11 @@
 
 Wraps [leongersen/noUiSlider](https://github.com/leongersen/noUiSlider) in a [react component](https://facebook.github.io/react/docs/component-api.html).
 
+## New features
+
+There are no added features in react-nouislider compared to the underlying noUiSlider project. If you need more features
+please direct them to the https://github.com/leongersen/noUiSlider repository.
+
 ## Documentation
 
 All the options used in react-nouislider are then passed to noUiSlider. See the [noUiSlider documentation](http://refreshless.com/nouislider/) before opening issues.
