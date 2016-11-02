@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/algolia/react-nouislider",
   "dependencies": {
-    "nouislider": "^8.5.1"
+    "nouislider-algolia-fork": "^10.0.0"
   },
   "devDependencies": {
     "babel": "5.8.23",

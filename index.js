@@ -1,5 +1,5 @@
 import React from 'react';
-import nouislider from 'nouislider';
+import nouislider from 'nouislider-algolia-fork';
 
 class Nouislider extends React.Component {
   componentDidMount() {
