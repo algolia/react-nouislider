@@ -1,3 +1,13 @@
+<a name="1.14.1"></a>
+## [1.14.1](https://github.com/algolia/react-nouislider/compare/v1.14.0...v1.14.1) (2016-11-02)
+
+
+### Bug Fixes
+
+* **mobile:** avoid multi touch issues ([eb101ff](https://github.com/algolia/react-nouislider/commit/eb101ff))
+
+
+
 <a name="1.14.0"></a>
 # [1.14.0](https://github.com/algolia/react-nouislider/compare/v1.13.0...v1.14.0) (2016-08-19)
 
