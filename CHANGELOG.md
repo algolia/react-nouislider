@@ -1,3 +1,8 @@
+<a name="1.14.2"></a>
+## [1.14.2](https://github.com/algolia/react-nouislider/compare/v1.14.1...v1.14.2) (2016-11-14)
+
+
+
 <a name="1.14.1"></a>
 ## [1.14.1](https://github.com/algolia/react-nouislider/compare/v1.14.0...v1.14.1) (2016-11-02)
 
