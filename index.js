@@ -59,7 +59,7 @@ Nouislider.propTypes = {
   behaviour: React.PropTypes.string,
   // http://refreshless.com/nouislider/slider-options/#section-Connect
   connect: React.PropTypes.oneOfType([
-    React.PropTypes.oneOf(['lower', 'upper']),
+    React.PropTypes.arrayOf(React.PropTypes.bool),
     React.PropTypes.bool
   ]),
   // http://refreshless.com/nouislider/slider-options/#section-cssPrefix
