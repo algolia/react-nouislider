@@ -1,3 +1,5 @@
+**This project is not well maintained, have a look at other natives react sliders: https://www.google.com/search?q=react+slider**
+
 # react-nouislider
 
 Wraps [leongersen/noUiSlider](https://github.com/leongersen/noUiSlider) in a [react component](https://facebook.github.io/react/docs/component-api.html).
