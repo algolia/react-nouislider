@@ -1,3 +1,13 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/algolia/react-nouislider/compare/v1.14.2...v2.0.0) (2017-03-24)
+
+
+### Features
+
+* replace `nouislider-algolia-fork` with `nouislider` ([4a2d4db](https://github.com/algolia/react-nouislider/commit/4a2d4db))
+
+
+
 <a name="1.14.2"></a>
 ## [1.14.2](https://github.com/algolia/react-nouislider/compare/v1.14.1...v1.14.2) (2016-11-14)
 
