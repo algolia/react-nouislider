@@ -1,6 +1,6 @@
 {
   "name": "react-nouislider",
-  "version": "2.0.0",
+  "version": "2.0.1-beta.0",
   "description": "React component wrapping leongersen/noUiSlider",
   "main": "dist/react-nouislider.common.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "url": "https://github.com/algolia/react-nouislider/issues"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.1"
+    "prop-types": "^15.6.0",
+    "react": "^0.14.0 || ^15.0.1 || ^16.0.0"
   },
   "homepage": "https://github.com/algolia/react-nouislider",
   "dependencies": {
@@ -43,8 +44,8 @@
     "eslint-config-algolia": "^4.6.0",
     "eslint-plugin-algolia": "^1.5.0",
     "eslint-plugin-react": "^3.16.1",
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.12.1"
   }
