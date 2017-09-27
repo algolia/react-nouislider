@@ -12,5 +12,6 @@ ReactDOM.render(
     range={{min: 0, max: 200}}
     start={[0, 100]}
     tooltips
-  />, document.querySelector('#container')
+  />,
+  document.querySelector('#container')
 );

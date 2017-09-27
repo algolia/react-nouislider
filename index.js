@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import nouislider from 'nouislider';
 
@@ -20,7 +21,9 @@ class Nouislider extends React.Component {
   }
 
   createSlider() {
-    var slider = this.slider = nouislider.create(this.sliderContainer, {...this.props});
+    var slider = (this.slider = nouislider.create(this.sliderContainer, {
+      ...this.props
+    }));
 
     if (this.props.onUpdate) {
       slider.on('update', this.props.onUpdate);
@@ -48,58 +51,61 @@ class Nouislider extends React.Component {
   }
 
   render() {
-    return <div ref={slider => {this.sliderContainer = slider;}} />;
+    return (
+      <div
+        ref={slider => {
+          this.sliderContainer = slider;
+        }}
+      />
+    );
   }
 }
 
 Nouislider.propTypes = {
   // http://refreshless.com/nouislider/slider-options/#section-animate
-  animate: React.PropTypes.bool,
+  animate: PropTypes.bool,
   // http://refreshless.com/nouislider/behaviour-option/
-  behaviour: React.PropTypes.string,
+  behaviour: PropTypes.string,
   // http://refreshless.com/nouislider/slider-options/#section-Connect
-  connect: React.PropTypes.oneOfType([
-    React.PropTypes.arrayOf(React.PropTypes.bool),
-    React.PropTypes.bool
-  ]),
+  connect: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.bool), PropTypes.bool]),
   // http://refreshless.com/nouislider/slider-options/#section-cssPrefix
-  cssPrefix: React.PropTypes.string,
+  cssPrefix: PropTypes.string,
   // http://refreshless.com/nouislider/slider-options/#section-orientation
-  direction: React.PropTypes.oneOf(['ltr', 'rtl']),
+  direction: PropTypes.oneOf(['ltr', 'rtl']),
   // http://refreshless.com/nouislider/more/#section-disable
-  disabled: React.PropTypes.bool,
+  disabled: PropTypes.bool,
   // http://refreshless.com/nouislider/slider-options/#section-limit
-  limit: React.PropTypes.number,
+  limit: PropTypes.number,
   // http://refreshless.com/nouislider/slider-options/#section-margin
-  margin: React.PropTypes.number,
+  margin: PropTypes.number,
   // http://refreshless.com/nouislider/events-callbacks/#section-change
-  onChange: React.PropTypes.func,
+  onChange: PropTypes.func,
   // http://refreshless.com/nouislider/events-callbacks/
-  onEnd: React.PropTypes.func,
+  onEnd: PropTypes.func,
   // http://refreshless.com/nouislider/events-callbacks/#section-set
-  onSet: React.PropTypes.func,
+  onSet: PropTypes.func,
   // http://refreshless.com/nouislider/events-callbacks/#section-slide
-  onSlide: React.PropTypes.func,
+  onSlide: PropTypes.func,
   // http://refreshless.com/nouislider/events-callbacks/
-  onStart: React.PropTypes.func,
+  onStart: PropTypes.func,
   // http://refreshless.com/nouislider/events-callbacks/#section-update
-  onUpdate: React.PropTypes.func,
+  onUpdate: PropTypes.func,
   // http://refreshless.com/nouislider/slider-options/#section-orientation
-  orientation: React.PropTypes.oneOf(['horizontal', 'vertical']),
+  orientation: PropTypes.oneOf(['horizontal', 'vertical']),
   // http://refreshless.com/nouislider/pips/
-  pips: React.PropTypes.object,
+  pips: PropTypes.object,
   // http://refreshless.com/nouislider/slider-values/#section-range
-  range: React.PropTypes.object.isRequired,
+  range: PropTypes.object.isRequired,
   // http://refreshless.com/nouislider/slider-options/#section-start
-  start: React.PropTypes.arrayOf(React.PropTypes.number).isRequired,
+  start: PropTypes.arrayOf(PropTypes.number).isRequired,
   // http://refreshless.com/nouislider/slider-options/#section-step
-  step: React.PropTypes.number,
+  step: PropTypes.number,
   // http://refreshless.com/nouislider/slider-options/#section-tooltips
-  tooltips: React.PropTypes.oneOfType([
-    React.PropTypes.bool,
-    React.PropTypes.arrayOf(
-      React.PropTypes.shape({
-        to: React.PropTypes.func
+  tooltips: PropTypes.oneOfType([
+    PropTypes.bool,
+    PropTypes.arrayOf(
+      PropTypes.shape({
+        to: PropTypes.func
       })
     )
   ])
